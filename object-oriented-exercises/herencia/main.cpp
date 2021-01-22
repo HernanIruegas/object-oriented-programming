@@ -29,7 +29,7 @@ int main(){
 	superCan.setNombre(n4);
 	superCan.setTipo(t4);
 	superCan.setColor(col4);
-	cout<<superCan.getCantPatas()<<"-"<<superCan.getComida()<<"-"
+	cout << superCan.getCantPatas() << "-" << superCan.getComida() << "-"
 		<<(superCan.getTipo()=='S'?"SALVAJE":"DOMESTICO")<<"-"
 		<<superCan.getNombre()<<"-"
 		<<(superCan.getColor()=='B'?"BICOLOR":"TRICOLOR")<<"-"
